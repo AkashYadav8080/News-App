@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Auther"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/author"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:id="@+id/description"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Published at time"
+            android:id="@+id/publishedAt"
+            android:paddingBottom="10dp"
+            android:textColor="#232020"
+            android:gravity="right"
+            />
+        
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          app:cardCornerRadius="15dp"
+          app:cardElevation="3dp"
+          android:layout_marginTop="10dp"
+          android:id="@+id/newsCard"
+          android:layout_marginBottom="10dp"
+          >
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/img"
+              android:scaleType="centerCrop"
+              android:src="@drawable/ic_launcher_background"
+              />
+      </androidx.cardview.widget.CardView>
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="url"-->
+<!--            android:id="@+id/url"-->
+<!--            />-->
+
+    </LinearLayout>
+
+</LinearLayout>

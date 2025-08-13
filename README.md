@@ -17,7 +17,7 @@ It uses a public news API to deliver headlines, category-based news, and trendin
 
 ## 🛠️ Tech Stack
 
-- **Language:** Java
+- **Languages:** Java, XML
 - **Framework:** Android SDK
 - **UI Components:** RecyclerView, CardView, Material Components
 - **Networking:** Retrofit + Gson
@@ -66,4 +66,5 @@ Licensed under the MIT License.
 
 ---
 If you find this project helpful, consider giving it a ⭐ on GitHub — it helps more people discover it.
+<p align="center"><b>Happy coding!</b> 👨‍💻🚀</p>
 

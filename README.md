@@ -65,5 +65,6 @@ Open a Pull Request.
 Licensed under the MIT License.
 
 ---
+
 If you find this project helpful, consider giving it a ⭐ on GitHub — it helps more people discover it.
 <p align="center"><b>Happy Coding!</b> 👨‍💻🚀</p>

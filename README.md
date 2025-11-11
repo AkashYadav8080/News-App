@@ -32,7 +32,6 @@ It uses a public news API to deliver headlines, category-based news, and trendin
    ```bash
    git clone https://github.com/AkashYadav8080/News-App.git
 
-
 2. **Open in Android Studio**
 Open the project in Android Studio.
 

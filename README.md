@@ -1,4 +1,4 @@
-# 📢 News-App (Android - Java)
+m# 📢 News-App (Android - Java)
 
 **News-App** is an Android application that fetches live news updates from all over the world.  
 It uses a public news API to deliver headlines, category-based news, and trending stories directly to your mobile device.
